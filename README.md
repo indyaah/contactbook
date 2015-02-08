@@ -11,6 +11,8 @@ PostgreSQL 9.4.1
 
 ### Steps to run locally (Given above setup is ready)
 
+```sh
 bundle install
 bundle exec rake db:create db:migrate
 bundle exec rail s
+```
